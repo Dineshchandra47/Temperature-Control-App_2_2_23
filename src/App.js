@@ -24,7 +24,7 @@ const App = () => {
     const newTemperature = temperature - 1;
     const temperatureText = "COLD";
 
-    if (newTemperature < 15) {
+    if (newTemperature <= 15) {
       setTemperatureColor("cold");
       setTemperatureText(temperatureText);
     }
